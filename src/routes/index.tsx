@@ -190,12 +190,8 @@ function WhatsAppFloat() {
 function Hero() {
   return (
     <section id="inicio" className="relative overflow-hidden pt-32 pb-24 md:pt-40 md:pb-32">
-      <img
-        src={logo}
-        alt=""
-        aria-hidden
-        className="pointer-events-none select-none absolute -right-16 top-10 w-[520px] md:w-[680px] opacity-[0.08]"
-      />
+
+
       <div className="relative mx-auto max-w-6xl px-6">
         <div className="max-w-2xl fade-in-section">
           <span className="inline-block text-xs tracking-[0.2em] text-terracotta mb-6">
