@@ -68,7 +68,8 @@ function useReveal() {
           if (e.isIntersecting) {
             e.target.classList.add("fade-in-visible");
             io.unobserve(e.target);
-            io.unobserve(e.target);
+
+
           }
         }
       },
