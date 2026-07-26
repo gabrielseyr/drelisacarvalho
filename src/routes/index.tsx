@@ -67,7 +67,7 @@ function useReveal() {
         for (const e of entries) {
           if (e.isIntersecting) {
             e.target.classList.add("fade-in-visible");
-            io.unfoldObserve?.(e.target);
+            io.unobserve(e.target);
             io.unobserve(e.target);
           }
         }
