@@ -510,7 +510,7 @@ function FAQ() {
   const faqs = [
     {
       q: "Com que frequência devo ir ao ginecologista/obstetra?",
-      a: "De forma geral, uma consulta anual é recomendada para acompanhamento preventivo. Durante a gestação, o intervalo é definido de forma individual. Na consulta, definimos juntas o que faz mais sentido para o seu momento.",
+      a: "De forma geral, uma consulta anual é recomendada para acompanhamento ginecológico preventivo. Durante a gestação, o intervalo é definido de forma individual, de acordo com o risco gestacional. Na primeira consulta, definimos juntas o que faz mais sentido para o seu momento.",
     },
     {
       q: "A consulta é dolorosa?",
@@ -518,15 +518,15 @@ function FAQ() {
     },
     {
       q: "Posso levar acompanhante?",
-      a: "Sim, você pode levar um acompanhante de sua confiança para a consulta, se isso te deixar mais à vontade.",
+      a: "Sim, você pode levar um acompanhante de sua confiança em todas as consultas, se isso te deixar mais à vontade. Inclusive, incentivo a presença da parceria nas consultas de pré-natal para que todas as dúvidas do casal sobre a gestação possam ser elucidadas.",
     },
     {
       q: "Como funciona o agendamento?",
-      a: "Você pode agendar diretamente pelo WhatsApp. Também é possível marcar uma primeira conversa por teleconsulta para tirar dúvidas antes da consulta presencial.",
+      a: "Você pode agendar diretamente pelo WhatsApp do consultório ou pelo número profissional da Dra. Elisa. Também é possível marcar uma primeira conversa por teleconsulta para tirar dúvidas antes da consulta presencial.",
     },
     {
       q: "O consultório atende convênio?",
-      a: "O atendimento na Barra da Tijuca é particular. Consultas pelo convênio são realizadas em uma unidade separada, em Copacabana.",
+      a: "O atendimento na Barra da Tijuca é particular. Consultas pelo convênio são realizadas em uma unidade separada, em Copacabana. Você pode tirar suas dúvidas pelo WhatsApp da Dra. Elisa, porém a marcação de consulta nessa modalidade deverá ser feita diretamente pela paciente no site da clínica.",
     },
   ];
   return (
