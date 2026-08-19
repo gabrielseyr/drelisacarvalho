@@ -359,14 +359,14 @@ function Diferenciais() {
 
 function AreasAtuacao() {
   const areas = [
-    { icon: Baby, label: "Pré-natal" },
+    { icon: Baby, label: "Consulta pré-concepcional e pré-natal" },
     { icon: HeartPulse, label: "Parto humanizado" },
-    { icon: Stethoscope, label: "Consulta ginecológica" },
-    { icon: CalendarCheck, label: "Consulta de retorno" },
+    { icon: Stethoscope, label: "Consulta e acompanhamento da saúde ginecológica" },
+    { icon: CalendarCheck, label: "Tratamento de queixas vulvares e vaginais" },
     { icon: CircleDot, label: "Inserção e retirada de DIU" },
-    { icon: Users, label: "Planejamento familiar" },
-    { icon: Activity, label: "Tratamento de SOP" },
-    { icon: Video, label: "Teleconsulta" },
+    { icon: Users, label: "Planejamento familiar e reprodutivo" },
+    { icon: Activity, label: "Tratamento de SOMP (antiga SOP)" },
+    { icon: Video, label: "Acompanhamento na menopausa e perimenopausa" },
   ];
   return (
     <section className="py-20 md:py-24">
