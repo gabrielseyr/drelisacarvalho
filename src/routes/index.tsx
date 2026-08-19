@@ -36,9 +36,9 @@ import {
   type CarouselApi,
 } from "@/components/ui/carousel";
 import logo from "@/assets/logo.jpeg";
-import draElisa from "@/assets/dra-elisa.png";
-import c1 from "@/assets/consultorio-1.png";
-import c2 from "@/assets/consultorio-2.png";
+import draElisa from "@/assets/dra-elisa.jpg";
+import c1 from "@/assets/consultorio-1.jpg";
+import c2 from "@/assets/consultorio-2.jpg";
 import c3 from "@/assets/consultorio-3.jpg";
 import c4 from "@/assets/consultorio-4.jpg";
 import c5 from "@/assets/consultorio-5.jpg";
