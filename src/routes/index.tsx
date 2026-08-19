@@ -329,7 +329,7 @@ function Diferenciais() {
     {
       icon: Lock,
       title: "Sigilo profissional",
-      text: "Tudo o que é dito na consulta, fica na consulta. Você pode falar de tudo com segurança.",
+      text: "Tudo o que é dito na consulta, fica na consulta. Você pode falar de tudo com segurança e sem medo.",
     },
   ];
   return (
