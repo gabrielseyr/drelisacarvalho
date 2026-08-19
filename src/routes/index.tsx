@@ -36,9 +36,9 @@ import {
   type CarouselApi,
 } from "@/components/ui/carousel";
 import logo from "@/assets/logo.jpeg";
-import draElisa from "@/assets/dra-elisa.png";
-import c1 from "@/assets/consultorio-1.png";
-import c2 from "@/assets/consultorio-2.png";
+import draElisa from "@/assets/dra-elisa.jpg";
+import c1 from "@/assets/consultorio-1.jpg";
+import c2 from "@/assets/consultorio-2.jpg";
 import c3 from "@/assets/consultorio-3.jpg";
 import c4 from "@/assets/consultorio-4.jpg";
 import c5 from "@/assets/consultorio-5.jpg";
@@ -198,12 +198,11 @@ function Hero() {
             BARRA DA TIJUCA · RIO DE JANEIRO
           </span>
           <h1 className="font-serif text-4xl md:text-6xl text-forest leading-[1.05]">
-            Cuidando de você em cada etapa
+            Cuidando de você em cada fase da vida
           </h1>
           <p className="mt-6 text-base md:text-lg text-foreground/75 max-w-xl leading-relaxed">
-            Acompanhamento obstétrico e ginecológico com um atendimento pensado
-            para você se sentir ouvida, respeitada e em segurança — do primeiro
-            exame à última dúvida.
+            Acompanhamento obstétrico e ginecológico pensado para você se sentir
+            ouvida, respeitada e em segurança desde o primeiro encontro.
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
             <a
@@ -218,7 +217,7 @@ function Hero() {
               href="#sobre"
               className="rounded-full border border-forest/40 px-6 py-3 text-sm text-forest hover:bg-forest/5 transition-colors"
             >
-              Conhecer a Dra. Elisa
+              Conhecer a Dra. Elisa Carvalho
             </a>
           </div>
         </div>
@@ -237,9 +236,10 @@ function Sobre() {
             Acredito que toda paciente merece sair de uma consulta com a certeza
             de que foi ouvida e cuidada de verdade. Ao longo da minha trajetória,
             venho construindo um atendimento próximo, claro e humano — onde cada
-            etapa, cada exame e cada decisão são explicados com atenção, sem
-            pressa e sem julgamentos. Meu compromisso é caminhar ao seu lado em
-            cada momento, do início ao fim.
+            etapa e cada exame são explicados com atenção, sem pressa e sem
+            julgamentos, e todas as decisões são tomadas de forma compartilhada.
+            Meu compromisso é caminhar ao seu lado em cada momento, do início ao
+            fim.
           </p>
           <p className="mt-6 text-sm text-muted-foreground">
             Dra. Elisa Carvalho — CRM RJ 1213172 · RQE 59538 — Obstetrícia e
@@ -313,8 +313,8 @@ function Diferenciais() {
   const items = [
     {
       icon: MessageCircle,
-      title: "Explicação",
-      text: "Cada etapa é explicada com clareza, do objetivo de um exame aos próximos passos do seu acompanhamento.",
+      title: "Informação",
+      text: "Cada etapa é explicada com clareza, para que você compreenda os objetivos desde um exame até os próximos passos do seu acompanhamento. Acredito na informação como peça fundamental para que você participe ativamente de todas as decisões e seja protagonista da sua história comigo.",
     },
     {
       icon: Ear,
@@ -329,7 +329,7 @@ function Diferenciais() {
     {
       icon: Lock,
       title: "Sigilo profissional",
-      text: "Tudo o que é dito na consulta, fica na consulta. Você pode falar de tudo com segurança.",
+      text: "Tudo o que é dito na consulta, fica na consulta. Você pode falar de tudo com segurança e sem medo.",
     },
   ];
   return (
@@ -359,14 +359,14 @@ function Diferenciais() {
 
 function AreasAtuacao() {
   const areas = [
-    { icon: Baby, label: "Pré-natal" },
+    { icon: Baby, label: "Consulta pré-concepcional e pré-natal" },
     { icon: HeartPulse, label: "Parto humanizado" },
-    { icon: Stethoscope, label: "Consulta ginecológica" },
-    { icon: CalendarCheck, label: "Consulta de retorno" },
+    { icon: Stethoscope, label: "Consulta e acompanhamento da saúde ginecológica" },
+    { icon: CalendarCheck, label: "Tratamento de queixas vulvares e vaginais" },
     { icon: CircleDot, label: "Inserção e retirada de DIU" },
-    { icon: Users, label: "Planejamento familiar" },
-    { icon: Activity, label: "Tratamento de SOP" },
-    { icon: Video, label: "Teleconsulta" },
+    { icon: Users, label: "Planejamento familiar e reprodutivo" },
+    { icon: Activity, label: "Tratamento de SOMP (antiga SOP)" },
+    { icon: Video, label: "Acompanhamento na menopausa e perimenopausa" },
   ];
   return (
     <section className="py-20 md:py-24">
@@ -400,12 +400,12 @@ function Jornada() {
     {
       icon: MessageCircle,
       title: "Primeiro contato",
-      text: "Você entra em contato pelo WhatsApp, presencial ou por teleconsulta, para tirar dúvidas iniciais.",
+      text: "Você entra em contato pelo WhatsApp para tirar dúvidas iniciais sobre marcação de consulta presencial ou online.",
     },
     {
       icon: Stethoscope,
       title: "Consulta",
-      text: "Um espaço de escuta e explicação, sem pressa, para entender sua queixa ou acompanhar sua gestação.",
+      text: "Um espaço de escuta, sem pressa, para entender sua queixa ou acompanhar sua gestação.",
     },
     {
       icon: Heart,
@@ -453,7 +453,7 @@ function ParaQuem() {
           Se você está vivendo a expectativa de uma gestação, ou busca um
           acompanhamento ginecológico onde se sinta verdadeiramente ouvida — este
           é um espaço para você. Aqui, cada etapa é explicada com calma, e cada
-          dúvida encontra espaço para ser feita sem receio.
+          pergunta encontra espaço para ser feita sem receio.
         </p>
       </div>
     </section>
@@ -510,7 +510,7 @@ function FAQ() {
   const faqs = [
     {
       q: "Com que frequência devo ir ao ginecologista/obstetra?",
-      a: "De forma geral, uma consulta anual é recomendada para acompanhamento preventivo. Durante a gestação, o intervalo é definido de forma individual. Na consulta, definimos juntas o que faz mais sentido para o seu momento.",
+      a: "De forma geral, uma consulta anual é recomendada para acompanhamento ginecológico preventivo. Durante a gestação, o intervalo é definido de forma individual, de acordo com o risco gestacional. Na primeira consulta, definimos juntas o que faz mais sentido para o seu momento.",
     },
     {
       q: "A consulta é dolorosa?",
@@ -518,15 +518,15 @@ function FAQ() {
     },
     {
       q: "Posso levar acompanhante?",
-      a: "Sim, você pode levar um acompanhante de sua confiança para a consulta, se isso te deixar mais à vontade.",
+      a: "Sim, você pode levar um acompanhante de sua confiança em todas as consultas, se isso te deixar mais à vontade. Inclusive, incentivo a presença da parceria nas consultas de pré-natal para que todas as dúvidas do casal sobre a gestação possam ser elucidadas.",
     },
     {
       q: "Como funciona o agendamento?",
-      a: "Você pode agendar diretamente pelo WhatsApp. Também é possível marcar uma primeira conversa por teleconsulta para tirar dúvidas antes da consulta presencial.",
+      a: "Você pode agendar diretamente pelo WhatsApp do consultório ou pelo número profissional da Dra. Elisa. Também é possível marcar uma primeira conversa por teleconsulta para tirar dúvidas antes da consulta presencial.",
     },
     {
       q: "O consultório atende convênio?",
-      a: "O atendimento na Barra da Tijuca é particular. Consultas pelo convênio são realizadas em uma unidade separada, em Copacabana.",
+      a: "O atendimento na Barra da Tijuca é particular. Consultas pelo convênio são realizadas em uma unidade separada, em Copacabana. Você pode tirar suas dúvidas pelo WhatsApp da Dra. Elisa, porém a marcação de consulta nessa modalidade deverá ser feita diretamente pela paciente no site da clínica.",
     },
   ];
   return (
