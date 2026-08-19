@@ -242,8 +242,8 @@ function Sobre() {
             fim.
           </p>
           <p className="mt-6 text-sm text-muted-foreground">
-            Dra. Elisa Carvalho — CRM RJ 1213172 · RQE 59538 — Obstetrícia e
-            Ginecologia
+            Dra. Elisa Carvalho — Obstetra e Ginecologista - CRM RJ 1213172 |
+            RQE 59538
           </p>
         </div>
         <div className="order-1 md:order-2 flex justify-center">
@@ -314,7 +314,7 @@ function Diferenciais() {
     {
       icon: MessageCircle,
       title: "Informação",
-      text: "Cada etapa é explicada com clareza, para que você compreenda os objetivos desde um exame até os próximos passos do seu acompanhamento. Acredito na informação como peça fundamental para que você participe ativamente de todas as decisões e seja protagonista da sua história comigo.",
+      text: "Cada etapa é explicada com clareza, para que a paciente compreenda os objetivos desde um exame até os próximos passos do seu acompanhamento. Acredito na informação como peça fundamental para que a paciente possa participar ativamente de todas as decisões e ser protagonista da sua história comigo.",
     },
     {
       icon: Ear,
