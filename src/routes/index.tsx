@@ -400,12 +400,12 @@ function Jornada() {
     {
       icon: MessageCircle,
       title: "Primeiro contato",
-      text: "Você entra em contato pelo WhatsApp, presencial ou por teleconsulta, para tirar dúvidas iniciais.",
+      text: "Você entra em contato pelo WhatsApp para tirar dúvidas iniciais sobre marcação de consulta presencial ou online.",
     },
     {
       icon: Stethoscope,
       title: "Consulta",
-      text: "Um espaço de escuta e explicação, sem pressa, para entender sua queixa ou acompanhar sua gestação.",
+      text: "Um espaço de escuta, sem pressa, para entender sua queixa ou acompanhar sua gestação.",
     },
     {
       icon: Heart,
