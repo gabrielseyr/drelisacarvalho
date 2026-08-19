@@ -236,9 +236,10 @@ function Sobre() {
             Acredito que toda paciente merece sair de uma consulta com a certeza
             de que foi ouvida e cuidada de verdade. Ao longo da minha trajetória,
             venho construindo um atendimento próximo, claro e humano — onde cada
-            etapa, cada exame e cada decisão são explicados com atenção, sem
-            pressa e sem julgamentos. Meu compromisso é caminhar ao seu lado em
-            cada momento, do início ao fim.
+            etapa e cada exame são explicados com atenção, sem pressa e sem
+            julgamentos, e todas as decisões são tomadas de forma compartilhada.
+            Meu compromisso é caminhar ao seu lado em cada momento, do início ao
+            fim.
           </p>
           <p className="mt-6 text-sm text-muted-foreground">
             Dra. Elisa Carvalho — CRM RJ 1213172 · RQE 59538 — Obstetrícia e
