@@ -313,8 +313,8 @@ function Diferenciais() {
   const items = [
     {
       icon: MessageCircle,
-      title: "Explicação",
-      text: "Cada etapa é explicada com clareza, do objetivo de um exame aos próximos passos do seu acompanhamento.",
+      title: "Informação",
+      text: "Cada etapa é explicada com clareza, para que você compreenda os objetivos desde um exame até os próximos passos do seu acompanhamento. Acredito na informação como peça fundamental para que você participe ativamente de todas as decisões e seja protagonista da sua história comigo.",
     },
     {
       icon: Ear,
