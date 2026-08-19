@@ -198,12 +198,11 @@ function Hero() {
             BARRA DA TIJUCA · RIO DE JANEIRO
           </span>
           <h1 className="font-serif text-4xl md:text-6xl text-forest leading-[1.05]">
-            Cuidando de você em cada etapa
+            Cuidando de você em cada fase da vida
           </h1>
           <p className="mt-6 text-base md:text-lg text-foreground/75 max-w-xl leading-relaxed">
-            Acompanhamento obstétrico e ginecológico com um atendimento pensado
-            para você se sentir ouvida, respeitada e em segurança — do primeiro
-            exame à última dúvida.
+            Acompanhamento obstétrico e ginecológico pensado para você se sentir
+            ouvida, respeitada e em segurança desde o primeiro encontro.
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
             <a
@@ -218,7 +217,7 @@ function Hero() {
               href="#sobre"
               className="rounded-full border border-forest/40 px-6 py-3 text-sm text-forest hover:bg-forest/5 transition-colors"
             >
-              Conhecer a Dra. Elisa
+              Conhecer a Dra. Elisa Carvalho
             </a>
           </div>
         </div>
