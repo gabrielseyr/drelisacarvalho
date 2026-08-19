@@ -453,7 +453,7 @@ function ParaQuem() {
           Se você está vivendo a expectativa de uma gestação, ou busca um
           acompanhamento ginecológico onde se sinta verdadeiramente ouvida — este
           é um espaço para você. Aqui, cada etapa é explicada com calma, e cada
-          dúvida encontra espaço para ser feita sem receio.
+          pergunta encontra espaço para ser feita sem receio.
         </p>
       </div>
     </section>
