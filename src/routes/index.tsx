@@ -35,7 +35,7 @@ import {
   CarouselPrevious,
   type CarouselApi,
 } from "@/components/ui/carousel";
-import logo from "@/assets/logo.jpeg";
+import logoFull from "@/assets/logo-full.png";
 import draElisa from "@/assets/dra-elisa.jpg";
 import c1 from "@/assets/consultorio-1.jpg";
 import c2 from "@/assets/consultorio-2.jpg";
@@ -106,9 +106,8 @@ function Header({ active }: { active: string }) {
   return (
     <header className="fixed top-0 inset-x-0 z-40 bg-cream/85 backdrop-blur-md border-b border-border/60">
       <div className="mx-auto max-w-6xl px-6 flex items-center justify-between h-16">
-        <a href="#inicio" className="flex items-center gap-2">
-          <img src={logo} alt="Elisa Carvalho" className="h-9 w-9 object-cover rounded-md" />
-          <span className="font-serif text-lg text-forest tracking-wide">Elisa Carvalho</span>
+        <a href="#inicio" className="flex items-center">
+          <img src={logoFull} alt="Dra. Elisa Carvalho — Obstetra e Ginecologista" className="h-11 w-auto object-contain" />
         </a>
         <nav className="hidden md:flex items-center gap-8">
           {NAV.map((n) => (
@@ -681,9 +680,8 @@ function Footer() {
   return (
     <footer className="py-10 border-t border-border/60">
       <div className="mx-auto max-w-6xl px-6 flex flex-col md:flex-row items-center justify-between gap-4">
-        <div className="flex items-center gap-2">
-          <img src={logo} alt="" className="h-7 w-7 rounded object-cover" />
-          <span className="font-serif text-forest">Elisa Carvalho</span>
+        <div className="flex items-center">
+          <img src={logoFull} alt="Dra. Elisa Carvalho — Obstetra e Ginecologista" className="h-9 w-auto object-contain" />
         </div>
         <p className="text-xs text-muted-foreground text-center">
           Dra. Elisa Carvalho — Obstetra e Ginecologista — CRM RJ 1213172 · RQE 59538
