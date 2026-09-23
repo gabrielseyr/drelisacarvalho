@@ -108,7 +108,7 @@ function Header({ active }: { active: string }) {
     <header className="fixed top-0 inset-x-0 z-40 bg-cream/85 backdrop-blur-md border-b border-border/60">
       <div className="mx-auto max-w-6xl px-6 flex items-center justify-between h-20">
         <a href="#inicio" className="flex items-center">
-          <img src={logoFull} alt="Dra. Elisa Carvalho — Obstetra e Ginecologista" className="h-14 w-auto object-contain" />
+          <img src={logoFull} alt="Dra. Elisa Carvalho — Obstetra e Ginecologista" className="h-[60px] w-auto object-contain" />
         </a>
         <nav className="hidden md:flex items-center gap-8">
           {NAV.map((n) => (
