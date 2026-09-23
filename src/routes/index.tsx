@@ -21,6 +21,7 @@ import {
   Menu,
   X,
 } from "lucide-react";
+import { FaWhatsapp } from "react-icons/fa";
 import {
   Accordion,
   AccordionContent,
@@ -105,9 +106,9 @@ function Header({ active }: { active: string }) {
   const [open, setOpen] = useState(false);
   return (
     <header className="fixed top-0 inset-x-0 z-40 bg-cream/85 backdrop-blur-md border-b border-border/60">
-      <div className="mx-auto max-w-6xl px-6 flex items-center justify-between h-16">
+      <div className="mx-auto max-w-6xl px-6 flex items-center justify-between h-20">
         <a href="#inicio" className="flex items-center">
-          <img src={logoFull} alt="Dra. Elisa Carvalho — Obstetra e Ginecologista" className="h-11 w-auto object-contain" />
+          <img src={logoFull} alt="Dra. Elisa Carvalho — Obstetra e Ginecologista" className="h-14 w-auto object-contain" />
         </a>
         <nav className="hidden md:flex items-center gap-8">
           {NAV.map((n) => (
@@ -128,8 +129,9 @@ function Header({ active }: { active: string }) {
           href={WA_MAIN}
           target="_blank"
           rel="noreferrer"
-          className="hidden md:inline-flex items-center rounded-full bg-forest px-4 py-2 text-sm text-cream hover:bg-forest/90 transition-colors"
+          className="hidden md:inline-flex items-center gap-2 rounded-full bg-forest px-4 py-2 text-sm text-cream hover:bg-forest/90 transition-colors"
         >
+          <FaWhatsapp className="h-4 w-4" aria-hidden />
           Agendar consulta
         </a>
         <button
@@ -179,9 +181,7 @@ function WhatsAppFloat() {
       aria-label="Falar no WhatsApp"
       className="fixed bottom-5 right-5 z-50 h-14 w-14 rounded-full bg-[#25D366] shadow-lg shadow-black/20 flex items-center justify-center hover:scale-105 transition-transform"
     >
-      <svg viewBox="0 0 32 32" className="h-7 w-7 fill-white" aria-hidden>
-        <path d="M19.11 17.28c-.3-.15-1.77-.87-2.05-.97-.28-.1-.48-.15-.68.15-.2.3-.78.97-.96 1.17-.18.2-.35.22-.65.07-.3-.15-1.27-.47-2.42-1.5-.9-.8-1.5-1.78-1.68-2.08-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.68-1.63-.92-2.23-.24-.58-.49-.5-.68-.51l-.58-.01c-.2 0-.52.07-.8.37-.28.3-1.05 1.02-1.05 2.5s1.08 2.9 1.23 3.1c.15.2 2.12 3.24 5.14 4.55.72.31 1.28.49 1.72.63.72.23 1.38.2 1.9.12.58-.09 1.77-.72 2.02-1.42.25-.7.25-1.3.17-1.42-.07-.12-.27-.2-.57-.35zM16.02 5.33c-5.9 0-10.7 4.8-10.7 10.7 0 1.88.5 3.72 1.44 5.33L5 27l5.8-1.52a10.66 10.66 0 0 0 5.22 1.33h.01c5.9 0 10.7-4.8 10.7-10.7 0-2.86-1.11-5.55-3.14-7.57a10.62 10.62 0 0 0-7.57-3.21zm0 19.55h-.01a8.88 8.88 0 0 1-4.52-1.24l-.32-.19-3.44.9.92-3.36-.21-.34a8.87 8.87 0 0 1-1.36-4.72c0-4.9 4-8.9 8.9-8.9 2.38 0 4.61.93 6.29 2.61a8.83 8.83 0 0 1 2.6 6.29c0 4.9-4 8.9-8.85 8.9z" />
-      </svg>
+      <FaWhatsapp className="h-7 w-7 text-white" aria-hidden />
     </a>
   );
 }
@@ -564,8 +564,9 @@ function CTAFinal() {
           href={WA_MAIN}
           target="_blank"
           rel="noreferrer"
-          className="mt-8 inline-flex rounded-full bg-cream px-7 py-3.5 text-sm text-forest hover:bg-cream/90 transition-colors"
+          className="mt-8 inline-flex items-center gap-2 rounded-full bg-cream px-7 py-3.5 text-sm text-forest hover:bg-cream/90 transition-colors"
         >
+          <FaWhatsapp className="h-4 w-4" aria-hidden />
           Agendar pelo WhatsApp
         </a>
       </div>
@@ -656,8 +657,9 @@ function Contato() {
               href={WA_MAIN}
               target="_blank"
               rel="noreferrer"
-              className="mt-8 inline-flex rounded-full bg-forest px-6 py-3 text-sm text-cream hover:bg-forest/90 transition-colors"
+              className="mt-8 inline-flex items-center gap-2 rounded-full bg-forest px-6 py-3 text-sm text-cream hover:bg-forest/90 transition-colors"
             >
+              <FaWhatsapp className="h-4 w-4" aria-hidden />
               Falar no WhatsApp
             </a>
 
